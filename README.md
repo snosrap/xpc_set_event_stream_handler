@@ -1,6 +1,6 @@
 # xpc_set_event_stream_handler
 
-Consume an `com.apple.iokit.matching` event, then run the executable specified in the first parameter.
+Consume a `com.apple.iokit.matching` event, then run the executable specified in the first parameter.
 
 This is useful when creating `launchd` LaunchAgents that are triggered by IO events (e.g., run a script when keyboard/mouse attached). Failing to consume the `com.apple.iokit.matching` event will result in the executable being called [repeatedly](https://stackoverflow.com/questions/13987671/launchd-plist-runs-every-10-seconds-instead-of-just-once).
 
