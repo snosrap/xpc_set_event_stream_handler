@@ -6,7 +6,7 @@ This is useful when creating `launchd` LaunchAgents that are triggered by IO eve
 
 This isn't really documented anywhere other than the `man` page for `xpc_set_event_stream_handler`.
 
-## Example PList
+## Example Property List
 
 	<?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
