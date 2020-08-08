@@ -3,7 +3,7 @@
 //  xpc_set_event_stream_handler
 //
 //  Created by Ford Parsons on 10/23/17.
-//  Copyright © 2017 Ford Parsons. All rights reserved.
+//  Copyright © 2017 Ford Parsons.
 //
 
 #import <Foundation/Foundation.h>
